@@ -50,6 +50,7 @@
             this.lblHelloWorld.Size = new System.Drawing.Size(46, 17);
             this.lblHelloWorld.TabIndex = 1;
             this.lblHelloWorld.Text = "label1";
+            this.lblHelloWorld.Click += new System.EventHandler(this.lblHelloWorld_Click);
             // 
             // Form1
             // 

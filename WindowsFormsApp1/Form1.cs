@@ -15,11 +15,17 @@ namespace WindowsFormsApp1
         public Form1()
         {
             InitializeComponent();
+            lblHelloWorld.Text = "Uhh";
         }
 
         private void btnClickThis_Click(object sender, EventArgs e)
         {
             lblHelloWorld.Text = "Hello World!";
+        }
+
+        private void lblHelloWorld_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
