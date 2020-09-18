@@ -38,7 +38,7 @@
             this.btnClickThis.Name = "btnClickThis";
             this.btnClickThis.Size = new System.Drawing.Size(139, 23);
             this.btnClickThis.TabIndex = 0;
-            this.btnClickThis.Text = "Click This button";
+            this.btnClickThis.Text = "Click This button !!";
             this.btnClickThis.UseVisualStyleBackColor = true;
             this.btnClickThis.Click += new System.EventHandler(this.btnClickThis_Click);
             // 
